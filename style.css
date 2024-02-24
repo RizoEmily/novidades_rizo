@@ -1,0 +1,238 @@
+@charset "UTF-08";
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #28292A;
+    font-family: "Montserrat", sans-serif;
+}
+
+main {
+    background-color: #28292A;
+    min-height: 200px;
+    max-width: 1300px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+/*CABEÇALHO------------------------------------------------------------------> */
+
+.fundo_header {
+    background-image: url(imagens/img_header.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    height: 400px;
+    margin: 20px;
+    border-radius: 30px;
+
+}
+
+.titulo_principal {
+    margin-top: auto;
+    text-align: center;
+    color: rgb(247, 228, 255);
+    padding-top: 150px;
+    font-size: 4vh;
+}
+
+.frase_principal {
+    margin-top: auto;
+    color: rgb(247, 228, 255);
+
+    font-weight: 500;
+    text-align: center;
+    font-size: 2vh;
+}
+
+.mascote {
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+/*PRIMEIRA SEÇÃO DO SITE------------------------------------------------------------------> */
+
+.secao01 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.texto_produtividade {
+    align-items: start;
+    padding: 100px;
+}
+
+.texto_produtividade>h3 {
+    color: rgb(247, 228, 255);
+    background-color: #633DFF;
+    padding: 5px;
+    height: auto;
+    max-width: 120px;
+    min-width: 120px;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.texto_produtividade>h4 {
+    color: aliceblue;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.texto01 {
+
+    color: rgb(247, 228, 255);
+    line-height: 30px;
+    width: 500px;
+}
+
+.img_produtividade {
+
+    height: 400px;
+    width: 800px;
+    background-image: url(imagens/img_secao01.jpg);
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 1px 2px 5px black;
+}
+
+.button_experimentar {
+    width: 150px;
+    height: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+    border-radius: 20px;
+    color: #633DFF;
+}
+
+.button_experimentar:hover {
+    background-color: #633DFF;
+    color: aliceblue;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+/* SEGUNDA SEÇÃO DO SITE------------------------------------------------------------------> */
+
+.secao02 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img_seguranca {
+    height: 400px;
+    width: 800px;
+    background-image: url(imagens/img_secao02.jpg);
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 1px 2px 5px black;
+}
+
+.texto_seguranca {
+    align-items: end;
+    padding: 100px;
+    height: auto;
+    width: 500px;
+
+}
+
+.texto_seguranca>h3 {
+    color: rgb(247, 228, 255);
+    background-color: #633DFF;
+    padding: 5px;
+    height: auto;
+    max-width: 120px;
+    min-width: 120px;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.texto_seguranca>h4 {
+    color: aliceblue;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* TERCEIRA SEÇÃO DO SITE------------------------------------------------------------------> */
+
+.secao03 {
+    background-color: #1a1b1b;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+
+.texto_dica {
+    align-items: end;
+    padding: 100px;
+    height: 300px;
+    width: 500px;
+}
+
+.texto_dica>h3 {
+    color: rgb(247, 228, 255);
+    background-color: #633DFF;
+    padding: 5px;
+    height: auto;
+    max-width: 120px;
+    min-width: 120px;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.texto_dica>h4 {
+    color: aliceblue;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.img_dica {
+    height: 400px;
+    width: 800px;
+    background-image: url(imagens/img_secao03.jpg);
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 1px 2px 5px black;
+    margin-right: 40px;
+}
+
+/* RODAPÉ DO SITE------------------------------------------------------------------> */
+footer{
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+    padding-bottom: 30px;
+} 
+
+.img_rizo {
+    height: 80px;
+    width: 165px;
+    background-image: url(imagens/logorizo.png);
+    background-repeat: no-repeat;
+    margin: auto;
+    align-items: center;
+    padding: 0px;
+}
